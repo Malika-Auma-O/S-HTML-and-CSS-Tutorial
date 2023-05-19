@@ -1,0 +1,52 @@
+ body {
+  color: #82a5ca;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  margin: 0; /*ensures div takes full width of the body without spaces*/
+
+ }
+
+ #hero {
+  background-image: url("./images/giphy.gif");
+  background-size: cover;
+  padding: 10px 0 40px 0;
+ }
+
+ /* @font-face {
+  font-family: Andromeda;
+  src: url("./assets/AndromedaTV.TTF");
+ }
+
+ h1 {
+  font-family: AndromedaTV;
+ } */
+
+ #title {
+  text-shadow: 0px 0px 5px black;
+ }
+
+ .btn {
+  padding: 8px 12px;
+  background-color: white;
+  border: none;
+  font-family: 'Orbitron', sans-serif;
+  color: #82a5ca;
+  font-weight: 800px;
+ }
+
+ .underline {
+  border-bottom: 4px solid white;
+ }
+
+ #main-logo{
+  width: 200px;
+ }
+
+
+
+
+ /* use google fonts from fonts.google.com */
+/* buttons do not inherit font family */
+
+/* text-shadow: -2px 3px 5px black. the first is the shadow on to the right when its positive number and negative number pushes shadow to the left, the second value is for top when it is negative and positive number is pushing shadow downwards. the 3rd value is the blurriness of the shadow*/
+/* if background image is same color, use text shadow to make it stand out, eg text-shadow: 0px 0px 2px black */
