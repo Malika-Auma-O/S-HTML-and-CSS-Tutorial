@@ -1,17 +1,43 @@
-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* to center image with margins, first give it a width first, give it is an inline item change styling to display block element in order to control the full horizontal space 
+if you set margin left and right to auto it takes up all the available space left and right*/
+
+.container{
+ 
+  width: 500px; /* provide width in order to center*/
+  margin: 100px auto; /*center the div*/ 
+ 
 }
 
 input {
   width: 400px;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 10px 30px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  line-height: 24px; /*best practice height for input field*/
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  /* margin-bottom: 10px; */
 }
 
-button {
+img {
+  width: 400px;
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+
+.btn {
+  background-color: #dfe1e5;
   border: none;
-  padding: 10px;
-  margin: 10px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 10px 4px;
 }
