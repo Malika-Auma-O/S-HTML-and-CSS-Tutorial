@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a2d2ff;
+  font-family: 'Happy Monkey', cursive;
+  color: #ffffff;
+  text-align: center; /*will align all inline content*/
+  background: linear-gradient(#a2d2ff, #efb0c9);
+}
+
+#header {
+  width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+h1, h2, h3, h4, p {
+  text-shadow: 0 0 1px black;
+}
+
+#age, #date {
+  
+  background-color: #efb0c9;
+}
+
+#age {
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin: 8px 0 10px 0;
+}
+
+#date {
+  padding: 3px;
+  margin: 0;
+  border-radius: 3px;
+}
+
+#main-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #efb0c9;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-hint {
+  margin-top: 0;
+}
+
+.gift-cover, .gift-cover-jd {
+  width: 400px;
+  height: 400px;
+  background-image: url("./images/gift-cover.png");
+  background-size: cover;
+  margin: 0 auto;
+}
+
+#gift-cover-img:hover {
+  background-image: url("./images/gif.webp");
+}
+
+#reaction-gift:hover {
+  background-image: url("./images/react.webp");
+}
+
+#genius:hover {
+  background-image: url("./images/genius.webp");
+}
+
+#badass:hover {
+  background-image: url("./images/badass.webp");
+}
+
+#cheers:hover {
+  background-image: url("./images/cheers.webp");
+}
+
+.footer {
+  width: 400px;
+  margin: 40px auto 20px;
+  font-style: italic;
+}
+
+.footer a {
+  color: white;
+}
+
+
+/* in display flex, justify content center controls the horizontal axis, and align items center controls the vertical axis. if flex direction is set to columns, align works horizontally nad justify vertically */
+/* align items by default has value of stretch */
