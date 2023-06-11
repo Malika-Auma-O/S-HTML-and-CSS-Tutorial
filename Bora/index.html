@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bora Swedi</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="gift-card">
+    <div class="cover" id="cover1">
+      <h2>Gift Cover 1</h2>
+      <img src="./images/gift-cover.png" alt="Gift Cover 1">
+      <button class="reveal-button" data-cover-id="1">Click to Reveal</button>
+      <p class="gift-text hidden">Gift Text 1</p>
+    </div>
+    <div class="cover" id="cover2">
+      <h2>Gift Cover 2</h2>
+      <img src="./images/gift-cover.png" alt="Gift Cover 2">
+      <button class="reveal-button" data-cover-id="2">Click to Reveal</button>
+      <p class="gift-text hidden">Gift Text 2</p>
+    </div>
+    <div class="cover" id="cover3">
+      <h2>Gift Cover 3</h2>
+      <img src="./images/gift-cover.png" alt="Gift Cover 3">
+      <button class="reveal-button" data-cover-id="3">Click to Reveal</button>
+      <p class="gift-text hidden">Gift Text 3</p>
+    </div>
+    <div class="reveal">
+      <p class="message" id="message"></p>
+      <div id="meme" class="hidden">
+        <img id="meme-image" src="./images/cheers.webp" alt="Meme">
+        <p class="caption" id="meme-caption"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
