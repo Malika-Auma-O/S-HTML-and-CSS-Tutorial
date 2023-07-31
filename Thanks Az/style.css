@@ -63,11 +63,11 @@ h1, h2, h3, h4, p {
 }
 
 #gift-cover-img:hover {
-  background-image: url("./images/baptise.webp");
+  background-image: url("./images/think.gif");
 }
 
 #reaction-gift:hover {
-  background-image: url("./images/buzuki.webp");
+  background-image: url("./images/fun.gif");
 }
 
 #genius:hover {
@@ -79,7 +79,7 @@ h1, h2, h3, h4, p {
 }
 
 #cheers:hover {
-  background-image: url("./images/cheers.webp");
+  background-image: url("./images/boss.gif");
 }
 
 .footer {
